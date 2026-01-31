@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    padding: 10px 40px;
+    background-color: grey;
+    color: #000;
+    font-size: 20px;
+}
+
+form{
+    padding-top: 40px;
+}
+
+input{
+    height: 27px;
+}
+
+.container button{
+    display: block;
+    margin: 45px 0 0 90px;
+    font-size: 20px;
+    padding: 7px 40px;
+    border-radius: 10px;
+}
+
+#results{
+    font-size: 40px;
+    padding: 20px 80px;
+    color: white;
+}
+
+#weight-guide{
+    padding-left: 80px;
+}
+
+#weight-guide p{
+    margin-top: 10px;
+}
