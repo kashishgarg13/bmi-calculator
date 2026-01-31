@@ -16,7 +16,7 @@ form.addEventListener('submit', function (e) {
         return;
     }
 
-    const bmi = (weight / ((height * height) * 0.0254)).toFixed(2);
+    const bmi = ((weight / (height * height)) * 10000).toFixed(2);
     results.innerHTML = `${bmi}`;
 
 
@@ -33,6 +33,7 @@ form.addEventListener('submit', function (e) {
         div.innerHTML = 'over weight';
     }
     results.appendChild(div);
+
 
 
 })
